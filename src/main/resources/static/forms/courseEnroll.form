@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "label": "Courses",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ooywu5",
+        "columns": null
+      },
+      "id": "Field_1cj3e17",
+      "key": "textfield_fl1wk"
+    }
+  ],
+  "type": "default",
+  "id": "PreButton",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.42.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.24.0",
+  "schemaVersion": 19
+}

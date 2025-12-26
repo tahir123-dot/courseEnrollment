@@ -1,0 +1,24 @@
+{
+  "components": [
+    {
+      "label": "PreRegisteration",
+      "action": "submit",
+      "type": "button",
+      "layout": {
+        "row": "Row_087d5os",
+        "columns": 4
+      },
+      "id": "Field_04t26ih",
+      "properties": {}
+    }
+  ],
+  "type": "default",
+  "id": "PreButton",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.42.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.24.0",
+  "schemaVersion": 19
+}

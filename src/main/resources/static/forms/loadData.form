@@ -1,0 +1,95 @@
+{
+  "components": [
+    {
+      "label": "Enter Reg No",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1vc4sjf",
+        "columns": null
+      },
+      "id": "Field_0o28et0",
+      "key": "userId",
+      "validate": {
+        "required": true,
+        "minLength": "",
+        "pattern": "^[1-9][0-9]{0,3}$"
+      }
+    },
+    {
+      "label": "Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1pgwcwk",
+        "columns": null
+      },
+      "id": "Field_1apoz8w",
+      "key": "name",
+      "readonly": true,
+      "disabled": false
+    },
+    {
+      "label": "Regno",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1pgwcwk",
+        "columns": null
+      },
+      "id": "Field_13majxf",
+      "key": "regno",
+      "readonly": true
+    },
+    {
+      "label": "Department",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0tgelea",
+        "columns": null
+      },
+      "id": "Field_0l7vddl",
+      "key": "department",
+      "readonly": true
+    },
+    {
+      "label": "program",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0tgelea",
+        "columns": null
+      },
+      "id": "Field_1mbt1ho",
+      "key": "program",
+      "readonly": true
+    },
+    {
+      "label": "Semester",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0v2twoo",
+        "columns": null
+      },
+      "id": "Field_1t6e6kt",
+      "key": "semester",
+      "readonly": true
+    },
+    {
+      "label": "Phone",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0v2twoo",
+        "columns": null
+      },
+      "id": "Field_1elj91w",
+      "key": "Phone",
+      "readonly": true
+    }
+  ],
+  "type": "default",
+  "id": "UserInfo",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.42.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.24.0",
+  "schemaVersion": 19
+}

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="Definitions_1jlmuuv" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.42.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.24.0">
+  <decision id="Decision_16r1mk9" name="Decision 1" camunda:historyTimeToLive="365">
+    <decisionTable id="DecisionTable_0rc4dza">
+      <input id="Input_1" label="department" camunda:inputVariable="department">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text>department</text>
+        </inputExpression>
+        <inputValues id="UnaryTests_04azytg">
+          <text>"Computer Science"</text>
+        </inputValues>
+      </input>
+      <input id="InputClause_173fzdw" label="program" camunda:inputVariable="program">
+        <inputExpression id="LiteralExpression_1l73p0v" typeRef="string">
+          <text>program</text>
+        </inputExpression>
+        <inputValues id="UnaryTests_0njnd84">
+          <text>"BSSE"</text>
+        </inputValues>
+      </input>
+      <input id="InputClause_0vdtgho" label="semester" camunda:inputVariable="semester">
+        <inputExpression id="LiteralExpression_1r0nyod" typeRef="integer">
+          <text>semester</text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="outputSemester" name="outSemester" typeRef="integer" />
+      <output id="OutputClause_1rgf682" label="status" name="status" typeRef="string">
+        <outputValues id="UnaryTests_0vmjfmu">
+          <text>"Allow","Block"</text>
+        </outputValues>
+      </output>
+      <rule id="DecisionRule_1piwqez">
+        <inputEntry id="UnaryTests_0rji1w7">
+          <text>"Computer Science"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_143vu91">
+          <text>"BSSE"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0vh61eb">
+          <text>1</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1nfzfdb">
+          <text>2</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_1gffbpi">
+          <text>"Allow"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1cjgdju">
+        <inputEntry id="UnaryTests_114hhrs">
+          <text>"Computer Science"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0x4cmuf">
+          <text>"BSSE"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0hrwp7h">
+          <text>2</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0pvqmzi">
+          <text>3</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0usw1j1">
+          <text>"Allow"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1073raa">
+        <inputEntry id="UnaryTests_0cmaxvq">
+          <text>"Computer Science"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1nw9qss">
+          <text>"BSSE"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0961te8">
+          <text>3</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0j6pp8w">
+          <text>4</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0ehbxwq">
+          <text>"Allow"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0gydzz4">
+        <inputEntry id="UnaryTests_0b5tsby">
+          <text>"Computer Science"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1wqmvjg">
+          <text>"BSSE"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1yvo0cj">
+          <text>4</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_067z5pg">
+          <text>5</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_1ynpefm">
+          <text>"Allow"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0n1xucf">
+        <inputEntry id="UnaryTests_10j0y18">
+          <text>"Computer Science"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_07jl2ge">
+          <text>"BSSE"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0xpuay5">
+          <text>5</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0bxbzj4">
+          <text>6</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_172y10u">
+          <text>"Allow"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0n61ukb">
+        <inputEntry id="UnaryTests_0kb3gsu">
+          <text>"Computer Science"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1qpcdg1">
+          <text>"BSSE"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1fmaesp">
+          <text>6</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0l465hv">
+          <text>7</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_176lr7d">
+          <text>"Allow"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0aa6ppp">
+        <inputEntry id="UnaryTests_0g7jpaj">
+          <text>"Computer Science"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1qub120">
+          <text>"BSSE"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0x8rhql">
+          <text>7</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1q6nu4t">
+          <text>8</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0koa235">
+          <text>"Allow"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0vjiky7">
+        <inputEntry id="UnaryTests_091x9vr">
+          <text>"Computer Science"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1kbx746">
+          <text>"BSSE"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0yvmdsy">
+          <text>8</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_17237i4">
+          <text></text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0iclod7">
+          <text>"Allow"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape id="Decision_16r1mk9_di" dmnElementRef="Decision_16r1mk9">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>
