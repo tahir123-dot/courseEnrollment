@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/courses
-    username: postgres
-    password: demo
+    username: write you own username
+    password: your password
 
   jpa:
     hibernate:
@@ -14,5 +14,5 @@ camunda:
     database:
       type: postgres
     admin-user:
-      id: demo
-      password: demo
+      id: userid
+      password: userpassword
